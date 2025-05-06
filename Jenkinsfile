@@ -1,7 +1,7 @@
 pipeline{
     agent any
     Environment {
-        GIT_REPO: 
+        GIT_REPO: 'https://github.com/Sumitshukla4020/etpprac'
         BRANCH: 'master'
     }
     stages{
